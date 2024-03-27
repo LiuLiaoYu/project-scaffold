@@ -66,7 +66,7 @@ export default defineConfig({
     UnoCSS(),
   ],
   build: {
-    outDir: '../app/public/',
+    outDir: './dist',
   },
   test: {
     environment: 'jsdom',
